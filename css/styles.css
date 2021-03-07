@@ -553,6 +553,15 @@ pre code {
   margin-left: auto;
 }
 
+@media (min-width: 375px){
+  .container-sm, .container {
+    max-width: 340px;
+  }
+  .email{
+    font-size: 10px;
+  }
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
